@@ -1,0 +1,178 @@
+
+
+.Typewriter__cursor{-webkit-animation:Typewriter-cursor 1s infinite;animation:Typewriter-cursor 1s infinite;margin-left:1px}@-webkit-keyframes Typewriter-cursor{0%{opacity:0}50%{opacity:1}100%{opacity:0}}@keyframes Typewriter-cursor{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
+
+
+            body, * {
+                font-family: 'Chillax', sans-serif !important;
+            }
+        
+
+
+                ::-moz-selection {
+                    background: #FFFFFF;
+                    color: #080808;
+                }
+                ::selection {
+                    background: #FFFFFF;
+                    color: #080808;
+                }
+                
+
+
+                                        .mantine-Slider-label {
+                                        display: none
+                                        }
+                                        .mantine-Slider-track::before {
+                                                background: var(--textColorDarker);
+                                            }
+                                        .mantine-Slider-bar {
+                                            background-color: var(--textColor)
+                                        }
+                                        .mantine-Slider-thumb {
+                                            border: 0.15rem solid var(--containerColor);
+                                            box-shadow: var(--textColorDarker) 0px 5px 25px 0px;
+                                        
+
+
+                    .tZFYeX_c79c92201fd9dbbf8582 {
+                        color: #ffffff!important;
+                        filter: drop-shadow(#ffffff 0 0 2.5px)!important;
+                    }
+                    
+
+
+                    .hwYbFy_e6a4312a1f03d5aee666 {
+                        color: #ffffff!important;
+                        filter: drop-shadow(#ffffff 0 0 2.5px)!important;
+                    }
+                    
+
+
+                    .pdyNRn_e201b64d253427d45457 {
+                        color: #ffffff!important;
+                        filter: drop-shadow(#ffffff 0 0 2.5px)!important;
+                    }
+                    
+
+
+                    .awleZR_d55067dbb097c330111f {
+                        color: #ffffff!important;
+                        filter: drop-shadow(#ffffff 0 0 2.5px)!important;
+                    }
+                    
+
+
+                    .yw2j3c_38e9c8eb44bb9f620c96 {
+                        color: #ffffff!important;
+                        filter: drop-shadow(#ffffff 0 0 2.5px)!important;
+                    }
+                    
+
+
+                    .lNYyZl_7944d114ea6239ac5af5 {
+                        color: #ffffff!important;
+                        filter: drop-shadow(#ffffff 0 0 2.5px)!important;
+                    }
+                    
+
+
+                    .ry3ZW5_eaee5107d30fdb87fa98 {
+                        max-width: initial;
+                    }
+                    .rxYcSz_ebb0dc0e558c005bb35c {
+                        display: none;
+                    }
+                    .mcSXGz_167257ca9e3d7cedbb60 {
+                        justify-content: space-between;
+                        width: 100%;
+                    }
+                    .ry3ZW5_eaee5107d30fdb87fa98 {
+                        display: block;
+                    }
+                    @media (max-width: 720px) {
+                        .xbYVIx_02af604a2f0bd5f52a08 {
+                            width: 95%;
+                            box-sizing: border-box;
+                        }
+                        .pNnYyV_813692df6b4f4a4eb22a {
+                            width: 95%;
+                        }
+                        .mmRYyV_f471df88ff8764d2fdb6 {
+                            max-width: 100%
+                        }
+                        .rxYcSz_ebb0dc0e558c005bb35c {
+                            display: inline;
+                        }
+                        false
+                    }
+                    @media (max-width: 430px) {
+                        .xbYVIx_02af604a2f0bd5f52a08 {
+                            width: 100%!important;
+                        }
+                        .pNnYyV_813692df6b4f4a4eb22a {
+                            width: 100%!important;
+                        }
+                    }
+                    false
+                    
+
+
+                                    .wVuNBF_8cadb2f2abb9edb616fd svg {
+                                        color: #FFFFFF!important;
+                                        filter: drop-shadow(#FFFFFF 1px 0 7px)!important;
+                                    }
+
+
+                                    .x9bGXm_e565c80a5053c026f582 svg {
+                                        color: #FFFFFF!important;
+                                        filter: drop-shadow(#FFFFFF 1px 0 7px)!important;
+                                    }
+
+
+                                    .icZtyG_4865c9a0160442f517d7 svg {
+                                        color: #FFFFFF!important;
+                                        filter: drop-shadow(#FFFFFF 1px 0 7px)!important;
+                                    }
+
+
+                                    .j3YnYt_c653568133149442be47 svg {
+                                        color: #FFFFFF!important;
+                                        filter: drop-shadow(#FFFFFF 1px 0 7px)!important;
+                                    }
+
+
+                                    .iy9Vbu_15219e57d6bc6fcfce94 svg {
+                                        color: #FFFFFF!important;
+                                        filter: drop-shadow(#FFFFFF 1px 0 7px)!important;
+                                    }
+
+/* ==UserStyle==
+@name           Youtube Controls Highlighting
+@namespace      almaceleste
+@version        0.3.1
+@description    highlights the controls of the youtube player to the preferred color on hover
+@author         almaceleste (https://almaceleste.github.io)
+@license        AGPL-3.0-or-later; http://www.gnu.org/licenses/agpl.txt
+
+@homepageURL    https://greasyfork.org/en/scripts/402954-youtube-controls-highlighting
+@homepageURL    https://openusercss.org/theme/5eb6c0fe8dace10c00d18d35
+@homepageURL    https://userstyles.org/styles/182091
+@homepageURL    https://github.com/almaceleste/userstyles
+@supportURL     https://github.com/almaceleste/userstyles/issues
+@updateURL      https://github.com/almaceleste/userstyles/raw/master/src/Youtube_Controls_Highlighting.user.css
+
+@preprocessor   uso
+@var select     highlight-color 'highlight color' [
+    'black',
+    'darkgreen',
+    'deepskyblue*',
+    'gold',
+    'indigo',
+    'lime',
+    'magenta',
+    'navy',
+    'orangered',
+    'white'
+]
+==/UserStyle== */
